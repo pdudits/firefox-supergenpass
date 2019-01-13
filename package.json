@@ -1,0 +1,22 @@
+{
+  "name": "supergenpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "web-ext run --source-dir plain",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^2.9.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "next-tick": "^1.0.0",
+    "supergenpass-lib": "^3.0.1"
+  }
+}
