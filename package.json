@@ -1,22 +1,16 @@
 {
-  "name": "supergenpass",
+  "name": "firefox-supergenpass",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "web-ext run --source-dir plain",
-    "build": "webpack"
+    "start": "web-ext run --source-dir plain",
+    "build": "web-ext build --source-dir plain"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Patrik Dudits <patrik@zeromagic.sk>",
+  "license": "GPLv2",
   "devDependencies": {
-    "web-ext": "^2.9.3",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "web-ext": "^2.9.3"
   },
-  "dependencies": {
-    "next-tick": "^1.0.0",
-    "supergenpass-lib": "^3.0.1"
-  }
+  "dependencies": {}
 }
